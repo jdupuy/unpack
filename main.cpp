@@ -42,8 +42,8 @@ const GLchar* vertexSrc2[]={
 
 	"vec2 vertices[3] = vec2[](vec2(-1.0),vec2(1.0,-1.0),vec2(0.0,1.0));\n",
 	"gl_Position      = vec4(vertices[gl_VertexID],0.0,1.0);\n",
-	"uint compressed = packHalf2x16(gl_Position.xy);\n"
-	"gl_Position.xy   = unpackHalf2x16(compressed);\n"
+	"uint compressed = packHalf2x16(gl_Position.xy);\n",
+	"gl_Position.xy   = unpackHalf2x16(compressed);\n",
 
 "}\n"
 };
