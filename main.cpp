@@ -273,7 +273,7 @@ int main(int argc, char** argv)
 
 	// build window
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
-	glutInitWindowSize(1024, 768);
+	glutInitWindowSize(800, 400);
 	glutInitWindowPosition(0, 0);
 	glutCreateWindow("unpack");
 
