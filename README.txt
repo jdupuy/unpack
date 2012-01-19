@@ -1,3 +1,7 @@
+AMD Driver bug on Catalyst 11.12
+Triangles should be identical.
+
+
 Building the sources
 --------------------
 

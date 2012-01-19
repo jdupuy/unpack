@@ -1,22 +1,16 @@
 ////////////////////////////////////////////////////////////////////////////////
 // \author   Jonathan Dupuy
-// \brief    An SPH solver, running on the GPU via OpenGL4.2 and GLSL420.
+// \brief    AMD Catalyst 11.12 bug.
 //
 ////////////////////////////////////////////////////////////////////////////////
-
-// enable gui
-//#define _ANT_ENABLE
 
 // GL libraries
 #include "glew.hpp"
 #include "GL/freeglut.h"
 
 // Standard librabries
-#include <cmath>
 #include <iostream>
 #include <sstream>
-#include <vector>
-#include <stdexcept>
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -26,8 +20,8 @@
 
 // OpenGL objects
 GLuint vertexArray = 0;
-GLuint program1     = 0;
-GLuint program2     = 0;
+GLuint program1    = 0;
+GLuint program2    = 0;
 
 // program code
 const GLchar* vertexSrc1[]={
