@@ -124,7 +124,7 @@ void on_init()
 #endif
 
 	// gen names
-	glGenVertexArrays(0, &vertexArray);
+	glGenVertexArrays(1, &vertexArray);
 	program1 = glCreateProgram();
 	program2 = glCreateProgram();
 
